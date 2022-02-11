@@ -1,0 +1,144 @@
+.monospace {
+	font-family: monospace;
+}
+.text-sm {
+	font-size: 12px;
+}
+
+/*
+ * Wave Form
+ */
+.waveForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 25px 0;
+}
+.waveForm input {
+	width: 300px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #eee;
+}
+.waveForm button {
+	width: 300px;
+	cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+.error {
+	color: red;
+}
+
+.code {
+	margin-top: 16px;
+	color: #555;
+	background-color: #eee;
+	font-size: 14px;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-wrap: break-word;
+}
+
+.mainContainer {
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-items: center;
+  width: 100%;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	width: 80%;
+  max-width: 800px;
+}
+
+.header {
+  text-align: center;
+  font-size: 96px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+
+
+.text {
+	text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.doorFrame {
+	margin: 10px 0;
+	height: 10px;
+	width: 100%;
+}
+
+.doorFrame .doorFrame__progress {
+	height: 100%;
+	width: 0%;
+	background-color: gray;
+	background-image: linear-gradient(to right, #666 , #a7a7a7);
+	animation: fill-bar 8s infinite
+}
+
+@keyframes fill-bar {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+.infoSection {
+	width: 80%;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 24px;
+	background-color: #eee;
+	padding: 16px;
+	border-radius: 15px;
+	color: #555;
+}
+.infoSection p {
+	font-weight: 700;
+	margin: 0;
+}
+.infoSection a, p {
+	padding: 3px 0;
+}
+
+.pageHeader {
+	width: 100%;
+	background-color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0;
+	margin-bottom: 50px;
+}
+.networkBadge {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-left: 15px;
+	padding: 5px 15px;
+	border-radius: 25px;
+}
+.networkBadge.rinkeby {
+	background-color: #f6c343
+}
+
+.waveItem {
+	font-family: monospace;
+	font-size: 12px;
+	padding: 10px 0;
+}
